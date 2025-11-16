@@ -65,7 +65,12 @@
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
+<<<<<<< HEAD
+    },
+    "dotnet.defaultSolution": "High Voltage.sln"
+=======
         "*.slnx": "*.csproj"
     },
     "dotnet.defaultSolution": "2D platformer.slnx"
+>>>>>>> d92fe327610e47bfca6546870cb0c1968155b873
 }
