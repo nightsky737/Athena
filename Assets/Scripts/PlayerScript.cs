@@ -68,14 +68,14 @@ public class PlayerScript: MonoBehaviour
             transform.position = new Vector3(-150, 0, 0);
         }
 
-        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             transform.position = transform.position + (Vector3.left * moveSpeed);
             orientation = -1;
             spriteRenderer.sprite = LeftSkin;
 
         }
-        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
         {
             transform.position = transform.position + (Vector3.right * moveSpeed);
             orientation = 1;
