@@ -8861,7 +8861,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f70063ee77c279946b4cce2c4ebf3cef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerScript
-  moveSpeed: 0.015
+  moveSpeed: 0.06
   jumpheight: 7
   dashSpeed: 5
   LeftSkin: {fileID: 133982719826790466, guid: cbb1680822596954986c598f5f4e313b, type: 3}
