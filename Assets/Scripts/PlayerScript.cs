@@ -5,10 +5,10 @@ public class PlayerScript: MonoBehaviour
 {
     private Rigidbody2D body;
 
-    private int xleft = -225;
+    private int xleft = -215;
     private int xright = -85;
     private int ytop = 1000;
-    private int ybottom = -30;
+    private int ybottom = -25;
     [SerializeField] private float moveSpeed;
     [SerializeField] private float jumpheight;
     [SerializeField] private float dashSpeed;
