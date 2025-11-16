@@ -7,7 +7,11 @@ public class LogicScript : MonoBehaviour
 {
     Dictionary<string, bool> collected = new Dictionary<string, bool>();
     private Dictionary<string, Sprite> gatheredMap;
+    private int gathered;
     public TextMeshProUGUI  collectedText; 
+    public GameObject PlatformCanvas;
+    public GameObject MixerCanvas;
+    public GameObject switchButton;
  
     // public Image Fear;           // the UI Image
     // public Image Joy;           // the UI Image
@@ -37,6 +41,10 @@ public class LogicScript : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
+        gathered = 0;
+        PlatformCanvas.SetActive(true);
+        MixerCanvas.SetActive(false);
+        switchButton.SetActive(false);
         collected.Add("joy", false);
         collected.Add("sadness", false);
         collected.Add("anger", false);
@@ -60,7 +68,7 @@ public class LogicScript : MonoBehaviour
 public void collect(string name)
 {
     collected[name] = true;
-
+    gathered+=1;
     foreach (var img in EmotionImages)
     {
         if (img.name.ToLower() == name)  
@@ -75,12 +83,28 @@ public void collect(string name)
     // Update is called once per frame
     void Update()
     {
-        collectedText.text = $@"Status:
-    Joy : {collected["joy"]}
-    Sadness : {collected["sadness"]}
-    Anger : {collected["anger"]}
-    Fear : {collected["fear"]}
-    Disgust : {collected["disgust"]}";
+    //     collectedText.text = $@"Status:
+    // Joy : {collected["joy"]}
+    // Sadness : {collected["sadness"]}
+    // Anger : {collected["anger"]}
+    // Fear : {collected["fear"]}
+    // Disgust : {collected["disgust"]}";
+    if(gathered == 5)
+        {
+            switchButton.SetActive(true);
+        }
     }
 
+ public void pressSwitch()
+{
+    Debug.Log("SWITCH FIRED");
+
+    PlatformCanvas.SetActive(false);
+
+    MixerCanvas.SetActive(true);
+    Canvas.ForceUpdateCanvases();
+
+    Debug.Log("Platform active: " + PlatformCanvas.activeSelf);
+    Debug.Log("Mixer active: " + MixerCanvas.activeSelf);
+}
 }

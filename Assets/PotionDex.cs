@@ -9,6 +9,7 @@ public class PotionDex : MonoBehaviour
     private void Awake()
     {
         Debug.Log("Potion Awake called!");
+        transform.SetParent(null);   // ⬅ MAKES IT A ROOT OBJECT
         DontDestroyOnLoad(gameObject);
         if (existence == null)
         {

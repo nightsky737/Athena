@@ -29,7 +29,7 @@ MonoBehaviour:
     ingredientA: {fileID: 11400000, guid: 165a36c5728a54f4ebc3f6009ac34f8c, type: 2}
     ingredientB: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
     potionName: Vengefulness
-    potionIcon: {fileID: 4606620930577216806, guid: 4e27cb31f08aab04aa50bf8ba0b80399, type: 3}
+    potionIcon: {fileID: -9090446508020681403, guid: d7f1fded6f754f54692a06a93adafb40, type: 3}
     emotionIcon: {fileID: -7995983333064289362, guid: a21e7478789b2284fa811a5d196a579a, type: 3}
     potionDescription: I have learned that this emotion is a calculated flame, burning
       with anger and sweetened by anticipation. It arises when an injustice must
@@ -62,7 +62,7 @@ MonoBehaviour:
     ingredientA: {fileID: 11400000, guid: 7fa66023dbbf874418ad22a32f3bce93, type: 2}
     ingredientB: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
     potionName: Resentment
-    potionIcon: {fileID: -9090446508020681403, guid: d7f1fded6f754f54692a06a93adafb40, type: 3}
+    potionIcon: {fileID: 8467318547858145638, guid: d553c4b25ad5abb4a80a7058ec2d4c41, type: 3}
     emotionIcon: {fileID: -2858011862976648780, guid: d1d2435273a00414a891282160a4c19c, type: 3}
     potionDescription: "I have observed that when humans experience this combination,
       their bodies tighten while their eyes still carry the heaviness of sorrow.
