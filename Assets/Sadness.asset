@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b503cd50390e2904482435a2bf776eff, type: 3}
+  m_Name: Sadness
+  m_EditorClassIdentifier: 
+  IngredientName: Essence of Sorrow
+  IngredientIcon: {fileID: -7275846927249200716, guid: abf25aa171680f04fa1f90552e15b2d1, type: 3}
+  Ingredientdescription: An emotional reaction produced when something valued is
+    lost or unreachable. Humans describe it as a heaviness behind the ribs and a
+    slowing of thoughts. It seems to pull their attention inward, encouraging reflection
+    rather than action. Unpleaseant though it may be, it helps with healing. This
+    is quite perplexing to me. Nautre's designs are truly an enigma. The logic behind
+    it is elaborate and elegant. A momentary descent that lets one rise again...

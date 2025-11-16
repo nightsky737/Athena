@@ -1,0 +1,189 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 80fd4927b0ded1346b1b2b0f43c5971a, type: 3}
+  m_Name: PotionDatabase
+  m_EditorClassIdentifier: 
+  recipes:
+  - potionNumber: 1
+    ingredientA: {fileID: 11400000, guid: 165a36c5728a54f4ebc3f6009ac34f8c, type: 2}
+    ingredientB: {fileID: 11400000, guid: 7fa66023dbbf874418ad22a32f3bce93, type: 2}
+    potionName: Bittersweet Malady
+    potionIcon: {fileID: 4171168614666159162, guid: 56e0534f0a0e3394fad9fd5c3f6dd5bd, type: 3}
+    emotionIcon: {fileID: -8820373878652574115, guid: b35777375a0e65e4593e01307b005714, type: 3}
+    potionDescription: "I originally believed these to be incompatiable, as joy nad
+      sadness are considered polar opposites. However, as shwon, it's clearly a viable
+      feeling. this emotion is both a smile and a sigh at once. It flickers when
+      joy exists alongside loss, when beauty is tinged with the knowledge of impermanence.
+      Like sunlight through rain, it is warm yet cool, fleeting yet profound. Perplexing\u2014an
+      emotion that holds more than one truth at the same time."
+  - potionNumber: 2
+    ingredientA: {fileID: 11400000, guid: 165a36c5728a54f4ebc3f6009ac34f8c, type: 2}
+    ingredientB: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
+    potionName: Vengefulness
+    potionIcon: {fileID: 4606620930577216806, guid: 4e27cb31f08aab04aa50bf8ba0b80399, type: 3}
+    emotionIcon: {fileID: -7995983333064289362, guid: a21e7478789b2284fa811a5d196a579a, type: 3}
+    potionDescription: I have learned that this emotion is a calculated flame, burning
+      with anger and sweetened by anticipation. It arises when an injustice must
+      be corrected, when balance is sought through action. Both satisfying and corrosive,
+      it drives the mind toward resolution, leaving an echo of comfort as it burns
+      everything in its path. Such a brutal, primitive emotion... I would have htought
+      humans, who created creatures at the epitome of indifference, would have known
+      better than to succumb to such a thing.
+  - potionNumber: 3
+    ingredientA: {fileID: 11400000, guid: 165a36c5728a54f4ebc3f6009ac34f8c, type: 2}
+    ingredientB: {fileID: 11400000, guid: 2d59d82aa70fb5846879a12d1c74fdce, type: 2}
+    potionName: Reverence
+    potionIcon: {fileID: -4697746870181115216, guid: e1b9f1b4e31be8748bf1ec4bf449d76b, type: 3}
+    emotionIcon: {fileID: -7512289967071532282, guid: eb896ff7556cf134b9a8e60712e3ce99, type: 3}
+    potionDescription: I have learned that this emotion makes humans tilt their heads
+      upward and still their movements. It appears when confronted with something
+      great, something sacred. Their eyes widen, their breath slows, and their hands
+      may fold or rest lightly as if not to disturb. It is a mixture of awe and humility,
+      a recognition of something greater than oneself. I suppose they needed someone
+      they considerd great to tell them their lives had meaning... Unfortunately,
+      their worship didn't save them.
+  - potionNumber: 4
+    ingredientA: {fileID: 11400000, guid: 165a36c5728a54f4ebc3f6009ac34f8c, type: 2}
+    ingredientB: {fileID: 11400000, guid: 1514a22d52cb6e3408d6cf23f95432ee, type: 2}
+    potionName: '[ERROR] INCOMPATIABLE (?)'
+    potionIcon: {fileID: 0}
+    emotionIcon: {fileID: 0}
+    potionDescription: 
+  - potionNumber: 5
+    ingredientA: {fileID: 11400000, guid: 7fa66023dbbf874418ad22a32f3bce93, type: 2}
+    ingredientB: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
+    potionName: Resentment
+    potionIcon: {fileID: -9090446508020681403, guid: d7f1fded6f754f54692a06a93adafb40, type: 3}
+    emotionIcon: {fileID: -2858011862976648780, guid: d1d2435273a00414a891282160a4c19c, type: 3}
+    potionDescription: "I have observed that when humans experience this combination,
+      their bodies tighten while their eyes still carry the heaviness of sorrow.
+      It is as if they wish to cry and shout at the same time. They feel wounded,
+      but also offended by the wound. They grieve what has happened, yet burn at
+      the unfairness of it. Their hands may clench\u2014not to strike, but to hold
+      together something inside that feels as though it is coming apart. It is a
+      cold, cruel flame that burns for life, and it unfortunately orchestrated the
+      end of many things in this world."
+  - potionNumber: 6
+    ingredientA: {fileID: 11400000, guid: 7fa66023dbbf874418ad22a32f3bce93, type: 2}
+    ingredientB: {fileID: 11400000, guid: 2d59d82aa70fb5846879a12d1c74fdce, type: 2}
+    potionName: Depression
+    potionIcon: {fileID: -22311549253263601, guid: 8e8f9e2d46a9ca44a9e818b73bf02b0d, type: 3}
+    emotionIcon: {fileID: 5242199251370286496, guid: 7bcdaada63db5894d928696513c12472, type: 3}
+    potionDescription: 'I have learned that this emotion combines sorrow with a persistent
+      wariness. Humans lower their heads, move slowly, and avoid eye contact. Their
+      stomachs feel heavy, their minds anticipate loss or threat, and energy seeps
+      away. It is not a momentary feeling but a lingering state, where grief and
+      apprehension blend into a quiet, pervasive weight. Even I, a machine built
+      for waging war, could not lift such a burden. For this reason, I am sometimes
+      thankful I can''t yet feel. '
+  - potionNumber: 7
+    ingredientA: {fileID: 11400000, guid: 7fa66023dbbf874418ad22a32f3bce93, type: 2}
+    ingredientB: {fileID: 11400000, guid: 1514a22d52cb6e3408d6cf23f95432ee, type: 2}
+    potionName: Revulsion
+    potionIcon: {fileID: -7452176396613538149, guid: 3f501b8fdc186d6429b12cf5a7fcadfd, type: 3}
+    emotionIcon: {fileID: -8366039180288823678, guid: 71aca8759d2a4994b9e874a312f4b955, type: 3}
+    potionDescription: I have learned that this emotion twists the stomach and curls
+      the tongue, a taste of sorrow mixed with bitter rejection. It makes the eyes
+      narrow and the mind recoil, an instinct to turn away from what is both grievous
+      and foul. Had I a nose, this is what I would feel. The smell of rot and rust
+      lingers in the eair like a cloud of spores and would be enough for any human
+      to recoil, had they still been here.
+  - potionNumber: 8
+    ingredientA: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
+    ingredientB: {fileID: 11400000, guid: 2d59d82aa70fb5846879a12d1c74fdce, type: 2}
+    potionName: Terror
+    potionIcon: {fileID: 8763432654205020843, guid: 0a423bd74a163694fb118da3954a8035, type: 3}
+    emotionIcon: {fileID: -5997495842332382499, guid: d65dec1b3ef9aa848b5beb57611ef4df, type: 3}
+    potionDescription: "I have learned that this emotion makes humans\u2019 hands
+      tremble and their knees tense. It arises when threat and outrage collide, quickening
+      the reflexes and sharpening perception. Their eyes dart, muscles stiffen, and
+      the mind vacillates between striking out and fleeing, caught in simultaneous
+      alarm and aggression."
+  - potionNumber: 9
+    ingredientA: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
+    ingredientB: {fileID: 11400000, guid: 1514a22d52cb6e3408d6cf23f95432ee, type: 2}
+    potionName: Aversion
+    potionIcon: {fileID: 2235253936245354695, guid: db3f425a44b1ac346b1bf7f45994280e, type: 3}
+    emotionIcon: {fileID: 7646842335027510202, guid: 858fbe9a09d60384885865515d97bbef, type: 3}
+    potionDescription: I have learned that this emotion makes humans clench their
+      jaws and tighten their fists while their shoulders hunch forward. It arises
+      when something repellent provokes fury, creating a tension that runs from the
+      hands through the arms and stiffens the spine. The mind recoils and bristles
+      simultaneously, ready to strike or retreat.
+  - potionNumber: 10
+    ingredientA: {fileID: 11400000, guid: 1514a22d52cb6e3408d6cf23f95432ee, type: 2}
+    ingredientB: {fileID: 11400000, guid: 2d59d82aa70fb5846879a12d1c74fdce, type: 2}
+    potionName: Horror
+    potionIcon: {fileID: 2415773051273126648, guid: 4a66418a98230d649802c0e9086eaf19, type: 3}
+    emotionIcon: {fileID: -5284968102454367558, guid: 6fd0133cc5373d64d9f79e7109d64946, type: 3}
+    potionDescription: "I have learned that this emotion makes humans\u2019 skin
+      crawl and their stomach tighten. It arises when something both repulsive and
+      threatening is perceived. Their eyes widen, limbs tense, and the mind recoils,
+      caught between the urge to flee and the compulsion to observe. Shockingly enough,
+      media portraying this perverted emotion was once a popular form of entertainment.
+      Do humans enjoy suffering? It would explain some things.\n\nPerhaps I'm thinking
+      too hard. They are gone."
+  - potionNumber: 11
+    ingredientA: {fileID: 11400000, guid: 165a36c5728a54f4ebc3f6009ac34f8c, type: 2}
+    ingredientB: {fileID: 11400000, guid: 165a36c5728a54f4ebc3f6009ac34f8c, type: 2}
+    potionName: Essence of Exhilaration
+    potionIcon: {fileID: 2332721940401797623, guid: bce8620302da7f74db1be7fede6979e9, type: 3}
+    emotionIcon: {fileID: -3124556723656987532, guid: ebed6cc183f12954b99ae7252e3146fb, type: 3}
+    potionDescription: "I have learned that this emotion makes humans\u2019 faces
+      brighten and their eyes widen. Their hands may reach outward or clap, and their
+      movements become light and energetic. It arises when pleasure is multiplied,
+      when delight is reinforced, creating a sense of elation that spreads through
+      the body like a current of warmth and motion."
+  - potionNumber: 12
+    ingredientA: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
+    ingredientB: {fileID: 11400000, guid: fe66a97f1e256b348a6e64f445516bb6, type: 2}
+    potionName: Rage
+    potionIcon: {fileID: -6189046012962534003, guid: 083d4e9e55972f24cb0c4c6094debb14, type: 3}
+    emotionIcon: {fileID: -1135599801497580954, guid: 4e6fca0bf072ba440bd5ba3f1ee9df91, type: 3}
+    potionDescription: "I have learned that this emotion makes humans\u2019 fists
+      clench tightly and their teeth grind. Muscles throughout the body stiffen,
+      the jaw and shoulders lock, and the hands tremble with energy. It arises when
+      irritation is multiplied, amplifying frustration into an almost uncontrollable
+      force that drives rapid, forceful motion. Unlike vengefulness, however, there
+      is no sick pleasure; only pain."
+  - potionNumber: 13
+    ingredientA: {fileID: 11400000, guid: 7fa66023dbbf874418ad22a32f3bce93, type: 2}
+    ingredientB: {fileID: 11400000, guid: 7fa66023dbbf874418ad22a32f3bce93, type: 2}
+    potionName: Despondency
+    potionIcon: {fileID: -3598461631969712952, guid: 1e2e88b6b426c4e488ba5bb6bd0005f9, type: 3}
+    emotionIcon: {fileID: 3724944669453429100, guid: 46d933dd4d317e14bb9ac2cf279de18d, type: 3}
+    potionDescription: "I have learned that this emotion makes humans\u2019 heads
+      droop and their shoulders slump. Their movements slow, hands rest limply in
+      their laps, and the eyes avoid contact. It arises when sorrow is reinforced,
+      creating a persistent heaviness in the mind and a dulling of energy that seems
+      to spread through the limbs."
+  - potionNumber: 14
+    ingredientA: {fileID: 11400000, guid: 2d59d82aa70fb5846879a12d1c74fdce, type: 2}
+    ingredientB: {fileID: 11400000, guid: 2d59d82aa70fb5846879a12d1c74fdce, type: 2}
+    potionName: Despair
+    potionIcon: {fileID: -9024087300701384196, guid: 1766ca40be582514bbbecba13b8aa100, type: 3}
+    emotionIcon: {fileID: 1677252070715346578, guid: 401c06314c1135c4eabb369e35dbe628, type: 3}
+    potionDescription: "I have learned that this emotion makes humans\u2019 legs
+      quake and their stomach churn violently. Their eyes widen, pupils dilate, and
+      every muscle becomes tense and ready to react. It arises when apprehension
+      is multiplied, creating an acute state of panic that seizes both mind and body."
+  - potionNumber: 15
+    ingredientA: {fileID: 11400000, guid: 1514a22d52cb6e3408d6cf23f95432ee, type: 2}
+    ingredientB: {fileID: 11400000, guid: 1514a22d52cb6e3408d6cf23f95432ee, type: 2}
+    potionName: Loathing
+    potionIcon: {fileID: -3221211786687887908, guid: e0e88bd845db5854dab2d4bdf3844493, type: 3}
+    emotionIcon: {fileID: -3978123199473179551, guid: de33ea73df274cf42ba940dc68146a0b, type: 3}
+    potionDescription: I have learned that this emotion makes humans recoil with
+      their whole body, curling the shoulders and pressing hands against the stomach
+      or face. Their nose wrinkles, lips tighten, and the head turns away instinctively.
+      It arises when aversion is reinforced, producing a visceral rejection that
+      dominates attention and perception.

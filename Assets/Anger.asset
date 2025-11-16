@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b503cd50390e2904482435a2bf776eff, type: 3}
+  m_Name: Anger
+  m_EditorClassIdentifier: 
+  IngredientName: Essence of Anger
+  IngredientIcon: {fileID: -1192155176405598136, guid: 9145b2c43bd3f7740a8c10c58cbe5e37, type: 3}
+  Ingredientdescription: A storm contained within the chest. It rises suddenly, sharp
+    as fire, hot enough to blur reason and scorch patience. It comes from frustration,
+    from injustice, from being blocked or betrayed. It is both destructive and energizing,
+    a force that demands release, and leaves a residue of pain in its wake. I would
+    consider it to be the most primal of emotions. I do wonder sometimes, when I
+    feel, which emotion will I overflow with?
