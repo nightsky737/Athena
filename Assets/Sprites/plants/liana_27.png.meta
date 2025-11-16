@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 2151b126cb2e47643a9103660c90ab13
+guid: d92cd75812b6b1a4890861a1cfe60d86
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1955448553306655712
-    second: Background_0
+      213: 8936810435574483491
+    second: liana_27_0
+  - first:
+      213: -2102472331812916992
+    second: liana_27_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_0
+      name: liana_27_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 928
-        height: 793
+        width: 25
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 193}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024fa93b6e9dcd4e0800000000000000
-      internalID: -1955448553306655712
+      spriteID: 32acb6dedbde50c70800000000000000
+      internalID: 8936810435574483491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liana_27_1
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 21
+        width: 12
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0013438bd8482d2e0800000000000000
+      internalID: -2102472331812916992
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 991307d2cf282bc4997403ee1499afdb
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_0: -1955448553306655712
+      liana_27_0: 8936810435574483491
+      liana_27_1: -2102472331812916992
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

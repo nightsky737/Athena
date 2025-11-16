@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 2151b126cb2e47643a9103660c90ab13
+guid: ac9109c7cba35f741b263acb0ad4066b
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1955448553306655712
-    second: Background_0
+      213: 3163120361286225300
+    second: liana_20_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +113,23 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_0
+      name: liana_20_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 928
-        height: 793
+        width: 29
+        height: 64
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 193}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024fa93b6e9dcd4e0800000000000000
-      internalID: -1955448553306655712
+      spriteID: 49d454ca539a5eb20800000000000000
+      internalID: 3163120361286225300
       vertices: []
       indices: 
       edges: []
@@ -138,7 +138,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 991307d2cf282bc4997403ee1499afdb
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +148,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_0: -1955448553306655712
+      liana_20_0: 3163120361286225300
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

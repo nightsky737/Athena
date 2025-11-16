@@ -1,10 +1,13 @@
 fileFormatVersion: 2
-guid: 2151b126cb2e47643a9103660c90ab13
+guid: dc94edd765512d34e8fdc22f8a21d1a5
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1955448553306655712
-    second: Background_0
+      213: 2902325216880079010
+    second: liana_19_0
+  - first:
+      213: -4767122161241431144
+    second: liana_19_1
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,23 +116,45 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Background_0
+      name: liana_19_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 928
-        height: 793
+        x: 8
+        y: 26
+        width: 7
+        height: 8
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 193}
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 024fa93b6e9dcd4e0800000000000000
-      internalID: -1955448553306655712
+      spriteID: 2a0bbc65861274820800000000000000
+      internalID: 2902325216880079010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: liana_19_1
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 0
+        width: 18
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 893ef42d6a7c7ddb0800000000000000
+      internalID: -4767122161241431144
       vertices: []
       indices: 
       edges: []
@@ -138,7 +163,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 991307d2cf282bc4997403ee1499afdb
+    spriteID: 
     internalID: 0
     vertices: []
     indices: 
@@ -148,7 +173,8 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Background_0: -1955448553306655712
+      liana_19_0: 2902325216880079010
+      liana_19_1: -4767122161241431144
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
